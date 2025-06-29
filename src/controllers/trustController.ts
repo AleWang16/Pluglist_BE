@@ -1,4 +1,4 @@
-import { trustService } import "../services/trustService";
+import { trustService } from "../services/trustService";
 
 export class TrustController {
     createVote = async (req, res) => {
